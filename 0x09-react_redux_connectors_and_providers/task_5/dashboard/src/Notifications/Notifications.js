@@ -1,3 +1,4 @@
+
 import React, { PureComponent, Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchNotifications } from '../actions/notificationActionCreators';
@@ -224,3 +225,4 @@ const mapDispatchToProps = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Notifications);
+
